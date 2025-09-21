@@ -7,8 +7,8 @@ import openai
 
 # Load environment variables
 load_dotenv()
-TELEGRAM_TOKEN = os.getenv("8245459837:AAHZN1y2CwRnznhZ5KD8opaiXnilzNy60QY")
-OPENAI_KEY = os.getenv("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")
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+OPENAI_KEY = os.getenv("OPENAI_API_KEY")
 
 #Configure OpenAI
 openai.api_key = OPENAI_KEY
@@ -55,4 +55,5 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
