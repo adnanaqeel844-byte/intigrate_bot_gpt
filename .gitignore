@@ -1,0 +1,19 @@
+# Python cache
+pycache/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/project files
+.vscode/
+.idea/
+*.iml
