@@ -1,0 +1,2 @@
+git branch -M main
+git remote add origin https://github.com/adnanaqeel844-byte/telegram-gpt-bot.git
