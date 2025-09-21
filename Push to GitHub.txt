@@ -1,0 +1,5 @@
+git push -u origin main
+
+git remote add origin https://github.com/adnanaqeel844-byte/intigrate_bot_gpt.git
+git branch -M main
+git push -u origin main
