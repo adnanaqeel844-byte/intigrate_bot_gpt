@@ -3,7 +3,6 @@ import sys
 from dotenv import load_dotenv
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
-import aiohttp
 import openai
 
 # Load environment variables
@@ -54,4 +53,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
